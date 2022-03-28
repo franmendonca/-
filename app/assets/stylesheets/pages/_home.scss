@@ -1,12 +1,40 @@
 // Specific CSS for your home-page
 .homepage_content{
+  padding: 2rem 5% 0 2.5%;
   hr{
+    display: block;
+    height: 3px;
+    border: 0;
+    margin: 2rem 0;
+    width: 3em;
     color: $highlight;
   }
   h2{
     margin-top: 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  h3{
+    font-size: 1.35em;
+    font-weight: 400;
+    margin-bottom: .5em;
+  }
+  .date{
+    font-size: .8em;
+    margin-bottom: 2em;
+    color: $light;
   }
   p{
+    font-weight: lighter;
+    margin: 0 0 .75em 0;
+  }
+}
+
+.about{
+  a{
+    color: $highlight;
     font-weight: bold;
+    text-decoration: none;
   }
 }
