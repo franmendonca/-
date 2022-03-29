@@ -1,14 +1,14 @@
 <div class= "container">
   <div class= "row">
     <div class="col-sm about homepage_content">
-      <h2>About</h2>
+      <%= link_to "About", abouts_path, class: "h2"%>
       <hr>
       <p>I am a web developer, originally from Porto and currently based in Lisbon, Portugal.</p>
       <p> Having finished a full-stack web development BootCamp at <a href="https://www.lewagon.com/lisbon" target= "_blank">Le Wagon</a>, and teaching as a TA, I am now interested in a full-time position for a company as well as freelance work.</p>
       <p>I spend my time on personal projects and learning more about HTML, CSS, and JavaScript.</p>
     </div>
-    <div class="col-sm homepage_content">
-      <h2>Projects</h2>
+    <div class="col-sm about homepage_content">
+      <%= link_to "Projects", projects_path, class: "h2"%>
       <hr>
       <h3>The DO list</h3>
       <p class="date">Friday April 10th</p>
@@ -17,8 +17,8 @@
       <h3>Get out of your confort zone</h3>
       <p class="date">Friday April 10th</p>
     </div>
-    <div class="col-sm homepage_content">
-      <h2>Stuff I've written</h2>
+    <div class="col-sm about homepage_content">
+      <%= link_to "Stuff I've written", articles_path, class: "h2"%>
       <hr>
       <h3>Nomadity</h3>
       <p class="date">Friday April 10th</p>
