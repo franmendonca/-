@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   resources :projects, only: [:index, :show]
   resources :abouts, only: [:index]
   resources :articles, only: [:index]
+  resources :contacts, only: [:new, :create]
 end

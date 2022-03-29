@@ -34,3 +34,12 @@ p, li{
 p, ul, li{
   margin: 0 0 1.6em 0;
 }
+
+.page_title{
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid $border;
+  padding: 2em 0;
+}
