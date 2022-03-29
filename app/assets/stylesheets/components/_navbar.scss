@@ -11,15 +11,23 @@
     padding: 1rem 1rem;
     text-decoration: none;
     color: $dark;
+    &:hover{
+      color: $highlight;
+      transition: 0.5s;
+    }
   }
 
   nav{
 
-    a{
+    .links{
       color: $dark;
       text-decoration: none;
       margin: 0 1rem;
       font-size: 1rem;
+      &:hover{
+        color: $highlight;
+        transition: 0.5s;
+      }
     }
   }
 }

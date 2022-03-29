@@ -1,9 +1,9 @@
 <header id= "main_navigation" class= "d-flex justify-content-between align-items-center">
-  <a href="#" class="name"> Francisco Mendonça</a>
+  <%= link_to "Francisco Mendonça", root_path, class: "name" %>
   <nav>
-    <a href="#">Projects</a>
-    <a href="#">Articles</a>
-    <a href="#">Contact</a>
-
+    <%= link_to "About", abouts_path, class: "links" %>
+    <%= link_to "Projects", projects_path, class: "links" %>
+    <%= link_to "Articles", articles_path, class: "links" %>
+    <%= link_to "Contact", projects_path, class: "links" %>
   </nav>
 </header>
