@@ -1,4 +1,4 @@
-#main_navigation{
+.container-fluid{
   padding: 2em 5%;
   border-bottom: 1px solid $border;
 
@@ -17,8 +17,6 @@
     }
   }
 
-  nav{
-
     .links{
       color: $dark;
       text-decoration: none;
@@ -29,5 +27,16 @@
         transition: 0.5s;
       }
     }
-  }
+
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
 }
