@@ -1,31 +1,28 @@
 <div class="container">
   <div class="row">
-<div id="carouselExampleControls" class="carousel slide col-sm mt-5 mb-5" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <%= image_tag "image1", class: "d-block w-100" %>
+    <div id="carouselExampleControls" class="carousel slide col-sm mt-5 mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <%= cl_image_tag("profile3", min_width: 200, width: 650, height: 700, crop: :fill)%>
+        </div>
+        <div class="carousel-item">
+          <%= cl_image_tag("profile1", min_width: 200, width: 650, height: 700, crop: :fill) %>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <%= image_tag "image2", class: "d-block w-100" %>
+    <div class="bio col-sm mt-5 mb-5">
+      <p>I am a web developer, originally from Porto and currently based in Lisbon, Portugal.</p>
+      <p> Having finished a full-stack web development BootCamp at <a href="https://www.lewagon.com/lisbon" target= "_blank">Le Wagon</a>, and teaching as a TA, I am now interested in a full-time position for a company as well as freelance work.</p>
+      <p>I spend my personal time on personal projects such as composing ambient music <a href="https://fmvolt.bandcamp.com/album/trim", target= "_blank"> under the name FM Volt</a> as well as volunteering at <a href="https://www.surfriderporto.com/", target= "_blank">Surfrider Foundation Europe</a>.</p>
+      <p>In my free time I practice Yoga and Surf on a regular basis.</p>
     </div>
-    <div class="carousel-item">
-      <%= image_tag "image3", class: "d-block w-100" %>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-  <div class="bio col-sm mt-5 mb-5">
-    <p>I am a web developer, originally from Porto and currently based in Lisbon, Portugal.</p>
-    <p> Having finished a full-stack web development BootCamp at <a href="https://www.lewagon.com/lisbon" target= "_blank">Le Wagon</a>, and teaching as a TA, I am now interested in a full-time position for a company as well as freelance work.</p>
-    <p>I spend my personal time on personal projects such as composing ambient music <a href="https://fmvolt.bandcamp.com/album/trim", target= "_blank"> under the name FM Volt</a> as well as volunteering at <a href="https://www.surfriderporto.com/", target= "_blank">Surfrider Foundation Europe</a>.</p>
-    <p>In my free time I practice Yoga and Surf on a regular basis.</p>
-  </div>
   </div>
 </div>
