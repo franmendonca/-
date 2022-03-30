@@ -1,18 +1,9 @@
 <h1 class= "page_title">Projects</h1>
 <div id= "posts_wrapper" class= "skinny_wrapper">
-  <div class="post">
-    <p class="date">Friday 10th</p>
-    <a href="#" class="h2">Nomadity</a>
+  <% @projects.each do |project| %>
+    <div class="post">
+      <h2> <%= link_to "#{project.title}", project_path(project)%> </h2>
+      <p class= "date"> <%= project.date%> </p>
     <hr>
-  </div>
-  <div class="post">
-    <p class="date">Friday 10th</p>
-    <a href="#" class="h2">NFT Solar</a>
-    <hr>
-  </div>
-  <div class="post">
-    <p class="date">Friday 10th</p>
-    <a href="#" class="h2">Musicbox</a>
-    <hr>
-  </div>
+    <% end %>
 </div>
